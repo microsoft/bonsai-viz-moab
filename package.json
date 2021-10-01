@@ -1,0 +1,54 @@
+{
+  "name": "moabviz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.29",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.4",
+    "axios": "^0.21.1",
+    "microsoft-bonsai-visualizer": "file:../microsoft-bonsai-visualizer",
+    "microsoft-bonsai-visualizer-private": "file:../microsoft-bonsai-visualizer-private",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^4.0.3",
+    "semver": "^7.3.5",
+    "three": "^0.126.0",
+    "y18n": "^5.0.5"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.ts*",
+    "lint:fix": "eslint --fix src/**/*.ts*",
+    "start": "npm run lint && react-scripts start",
+    "build:libs": "pushd ../microsoft-bonsai-visualizer-private && npm install && npm run build && popd",
+    "build": "npm install && npm run lint && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.3.8",
+    "@types/three": "^0.125.3",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1",
+    "typescript": "^3.9.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "/moabviz"
+}
