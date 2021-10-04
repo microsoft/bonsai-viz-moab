@@ -4,6 +4,26 @@ This visualizer is part of the example [Moab Project](https://aka.sm/moab). It i
 
 ![Moab Visualizer](MoabVisualizer.png)
 
+# Installing
+
+You will need to clone and build the `microsoft-bonsai-visualizer` library before building this project. The library must live next to this project in the parent directory.
+
+```bash
+cd ~/
+git clone git@github.com:microsoft/microsoft-bonsai-visualizer.git
+cd ~/microsoft-bonsai-visualizer
+npm install
+npm run build
+```
+
+## Building
+
+```bash
+cd ~/bonsai-viz-moab
+npm install
+npm start
+```
+
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
