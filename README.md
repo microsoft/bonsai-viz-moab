@@ -1,6 +1,8 @@
 # Project
 
-This visualizer is part of the [Moab Project](https://aka.sm/moab). It is used to visualize output state from the `moabsim-py` simulator.
+This visualizer is part of the [Moab Project](https://aka.sm/moab). It is used to visualize output state from the [`moabsim-py`](https://github.com/microsoft/moabsim-py) simulator.
+
+![Moab Visualizer](MoabVisualizer.png)
 
 ## Contributing
 
