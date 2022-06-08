@@ -1,6 +1,6 @@
 # Bonsai Moab Visualizer
 
-This visualizer is part of the example [Moab Project](https://aka.sm/moab). It is used to visualize output state from the [`moabsim-py`](https://github.com/microsoft/moabsim-py) simulator.
+This visualizer is part of the example [Moab Project](https://aka.ms/moab). It is used to visualize output state from the [`moabsim-py`](https://github.com/microsoft/moabsim-py) simulator.
 
 ![Moab Visualizer](MoabVisualizer.png)
 
